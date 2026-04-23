@@ -12,8 +12,6 @@
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
-    "@tailwindcss/oxide": "^4.2.4",
-    "@tailwindcss/oxide-win32-x64-msvc": "^4.2.4",
     "@vitejs/plugin-react": "^5.0.4",
     "axios": "^1.15.2",
     "bcryptjs": "^3.0.3",
