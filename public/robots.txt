@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harsh-singh-developer.run.app/sitemap.xml

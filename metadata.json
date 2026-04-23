@@ -1,0 +1,12 @@
+{
+  "name": "Harsh Singh Developer",
+  "description": "A premium, high-performance developer portfolio and SaaS platform for Harsh Rajesh Singh, featuring AI resume generation and real-time GitHub activity tracking.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "coding",
+    "design",
+    "strategy"
+  ]
+}
