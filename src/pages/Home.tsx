@@ -9,6 +9,7 @@ import { ProjectSkeleton, GithubPulseSkeleton } from '../components/ui/Skeleton'
 import SEO from '../components/SEO';
 import axios from 'axios';
 import TerminalHero from '../components/ui/TerminalHero';
+import Typewriter from '../components/ui/Typewriter';
 
 
 export default function Home() {
