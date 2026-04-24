@@ -104,4 +104,18 @@ body {
   100% { transform: translateY(100vh); }
 }
 
+/* CRT Scanline Effect */
+.crt-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* This creates microscopic alternating clear and dark lines */
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.15) 50%);
+  background-size: 100% 4px;
+  pointer-events: none; /* This ensures you can still click buttons underneath it! */
+  z-index: 9999; /* This keeps it on top of everything else */
+  opacity: 0.6; /* Adjust this from 0.1 to 1.0 to make the lines darker or lighter */
+}
 
