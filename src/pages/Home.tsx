@@ -11,6 +11,8 @@ import axios from 'axios';
 import TerminalHero from '../components/ui/TerminalHero';
 import Typewriter from '../components/ui/Typewriter';
 import SystemClock from '../components/ui/SystemClock';
+import AnimatedNumber from '../components/ui/AnimatedNumber';
+
 
 
 
@@ -199,11 +201,17 @@ export default function Home() {
                     </div>
                     <div className="flex space-x-8">
                       <div className="text-center">
-                        <div className="text-2xl font-bold tracking-tighter">{githubStats?.streak || 0}</div>
+                        <div className="text-2xl font-bold tracking-tighter">
+  <AnimatedNumber value={githubStats?.streak || 0} />
+</div>
+
                         <div className="text-[9px] text-[#888888] uppercase tracking-widest">Streak</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-2xl font-bold tracking-tighter">{githubStats?.totalCommits || 0}</div>
+                        <div className="text-2xl font-bold tracking-tighter">
+  <AnimatedNumber value={githubStats?.totalCommits || 0} />
+</div>
+
                         <div className="text-[9px] text-[#888888] uppercase tracking-widest">Commits</div>
                       </div>
                     </div>
