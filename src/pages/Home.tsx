@@ -10,6 +10,8 @@ import SEO from '../components/SEO';
 import axios from 'axios';
 import TerminalHero from '../components/ui/TerminalHero';
 import Typewriter from '../components/ui/Typewriter';
+import SystemClock from '../components/ui/SystemClock';
+
 
 
 export default function Home() {
@@ -284,9 +286,11 @@ export default function Home() {
           <span className="hidden md:inline tracking-tighter uppercase font-medium">{PROFILE.name} // DEV_UNIT_01</span>
         </div>
         <div className="flex space-x-6 items-center">
-          <span className="hidden sm:inline">LAT: 19.0760 N</span>
-          <span className="hidden sm:inline">LON: 72.8777 E</span>
-          <div className="flex items-center gap-2">
+  <span className="hidden sm:inline">LAT: 19.0760 N</span>
+  <span className="hidden sm:inline">LON: 72.8777 E</span>
+  <SystemClock /> {/* The live ticking clock goes here! */}
+  <div className="flex items-center gap-2">
+
              <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
              <span className="text-green-500 font-bold">SECURE CONNECTION // AES-256</span>
           </div>
