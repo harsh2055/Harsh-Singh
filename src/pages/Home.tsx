@@ -138,12 +138,13 @@ export default function Home() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {PROJECTS.map((project, i) => (
                   <motion.div 
-                    key={project.id}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: i * 0.1 }}
-                    className="bg-[var(--card)] border-thin p-6 rounded-lg group hover:border-blue-500/30 transition-all flex flex-col justify-between"
-                  >
+  key={project.id}
+  initial={{ opacity: 0, y: 10 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: i * 0.1 }}
+  className="bg-[var(--card)] border-thin p-6 rounded-lg group hover:border-blue-500/80 hover:shadow-[0_0_20px_rgba(59,130,246,0.15)] transition-all duration-300 flex flex-col justify-between"
+>
+
                     <div>
                       <div className="flex justify-between items-start mb-4">
                         <h4 className="text-sm font-bold tracking-tight">{project.name}</h4>
