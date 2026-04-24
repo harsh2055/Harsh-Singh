@@ -92,7 +92,8 @@ export default function Home() {
                     animate={{ opacity: 1 }}
                   >
                     {PROJECTS.slice(0, 1).map(project => (
-                      <div key={project.id} className="bg-[var(--card)] border-thin p-8 rounded-lg relative overflow-hidden group">
+                      <div key={project.id} className="bg-[var(--card)] border-thin p-8 rounded-lg relative overflow-hidden group hover:border-blue-500/80 hover:shadow-[0_0_20px_rgba(59,130,246,0.15)] transition-all duration-300">
+
                         <div className="absolute top-0 right-0 p-4 flex gap-2">
                           {project.githubUrl && (
                             <a href={project.githubUrl} target="_blank" rel="noreferrer" className="pill bg-white/10 text-white border-white/20 px-3 py-1 hover:bg-white hover:text-black transition-all flex items-center gap-2">
