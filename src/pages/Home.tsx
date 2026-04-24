@@ -297,9 +297,9 @@ export default function Home() {
           <span className="hidden md:inline text-[#222222]">|</span>
           <span className="hidden md:inline tracking-tighter uppercase font-medium">{PROFILE.name} // DEV_UNIT_01</span>
         </div>
-        <div className="flex space-x-6 items-center">
-  <span className="hidden sm:inline">LAT: 19.0760 N</span>
-  <span className="hidden sm:inline">LON: 72.8777 E</span>
+        <div className="flex space-x-4 items-center">
+  <span className="hidden md:inline">LAT: 19.0760 N</span>
+  <span className="hidden md:inline">LON: 72.8777 E</span>
   <SystemClock /> {/* The live ticking clock goes here! */}
   <div className="flex items-center gap-2">
 
