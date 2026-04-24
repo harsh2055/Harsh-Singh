@@ -40,10 +40,14 @@ export default function Home() {
     ? PROJECTS.slice(0, 1) // Only most impactful for Elegant Dark style
     : PROJECTS.slice(0, 2);
 
-  return (
-    <div className="grid-bg min-h-screen">
+    return (
+    <div className="grid-bg min-h-screen relative">
+      {/* The new CRT scanline overlay goes right here */}
+      <div className="crt-overlay"></div>
+      
       <SEO 
         title="Full Stack Developer & AI Engineer" 
+ 
         description="Harsh Singh - Building secure, scalable, and AI-powered software solutions. Expert in Python, React, and Distributed Systems."
         path="/"
       />
