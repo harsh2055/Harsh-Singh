@@ -48,26 +48,26 @@ export default function Home() {
           {/* Left Column: Intro + Project */}
           <div className="w-full lg:w-[580px] flex flex-col space-y-12">
             <motion.section
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              <div className="flex items-center space-x-2 text-blue-500 mb-4 tracking-tight">
-                <span className="w-2 h-2 rounded-full bg-blue-500 shadow-[0_0_8px_#3B82F6]"></span>
-                <span className="mono text-[11px] font-medium uppercase tracking-wider">System Online: Full Stack Specialist</span>
-              </div>
-              <h1 className="text-6xl md:text-7xl font-bold tracking-tighter leading-[0.9] mb-6">
-                Building Scalable<br/>Web Applications.
-              </h1>
-              <p className="text-[#888888] leading-relaxed max-w-sm text-sm">
-                Full Stack Developer focused on building high-performance web applications and AI-integrated systems. Currently developing production-grade SaaS engines and contributing to secure data protocols.
-              </p>
-              <div className="mt-8 flex gap-4">
-                <Link to="/about" className="text-[10px] font-bold text-[#EAEAEA] uppercase tracking-widest flex items-center gap-2 hover:text-blue-500 transition-colors">
-                  Read_Full_Biography <ArrowRight className="w-3 h-3" />
-                </Link>
-              </div>
-            </motion.section>
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+>
+  {/* The new typing animation goes exactly here, replacing the old div */}
+  <Typewriter />
+  
+  <h1 className="text-6xl md:text-7xl font-bold tracking-tighter leading-[0.9] mb-6">
+    Building Scalable<br/>Web Applications.
+  </h1>
+  <p className="text-[#888888] leading-relaxed max-w-sm text-sm">
+    Full Stack Developer focused on building high-performance web applications and AI-integrated systems. Currently developing production-grade SaaS engines and contributing to secure data protocols.
+  </p>
+  <div className="mt-8 flex gap-4">
+    <Link to="/about" className="text-[10px] font-bold text-[#EAEAEA] uppercase tracking-widest flex items-center gap-2 hover:text-blue-500 transition-colors">
+      Read_Full_Biography <ArrowRight className="w-3 h-3" />
+    </Link>
+  </div>
+</motion.section>
+
 
             <section className="space-y-4">
               <div className="flex justify-between items-end">
