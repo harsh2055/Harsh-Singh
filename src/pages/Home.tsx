@@ -8,6 +8,8 @@ import { cn } from '../lib/utils';
 import { ProjectSkeleton, GithubPulseSkeleton } from '../components/ui/Skeleton';
 import SEO from '../components/SEO';
 import axios from 'axios';
+import TerminalHero from '../components/ui/TerminalHero';
+
 
 export default function Home() {
   const { isRecruiterMode } = useRecruiter();
