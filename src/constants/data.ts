@@ -36,7 +36,7 @@ export const PROJECTS = [
     description: "Engineered a comprehensive women's health companion app with features including menstrual cycle tracking, pregnancy monitoring, and symptom logging.",
     techStack: ["React", "Flask/Node.js", "Firebase"],
     githubUrl: "https://github.com/harsh2055/Hercare",
-    liveUrl: "https://hercare-tau.vercel.app",
+    liveUrl: "https://hercare-tau.vercel.app/",
     highlights: [
       "Engineered a comprehensive women's health companion app with features including menstrual cycle tracking, pregnancy monitoring, and symptom logging.",
       "Designed personalized diet and exercise plan modules with smart reminders driven by user health data."
@@ -54,7 +54,7 @@ export const PROJECTS = [
     description: "Built a production-ready full-stack weather app with an integrated AI chatbot and Progressive Web App (PWA) support.",
     techStack: ["React", "Node.js", "Supabase", "OpenWeatherMap API"],
     githubUrl: "https://github.com/harsh2055/WeatherVue",
-    liveUrl: "https://weather-vue-ruddy.vercel.app",
+    liveUrl: "https://weather-vue-ruddy.vercel.app/",
     highlights: [
       "Built a production-ready full-stack weather app with an integrated AI chatbot and Progressive Web App (PWA) support.",
       "Implemented real-time weather data visualization and conversational AI assistance for weather queries."
@@ -72,7 +72,7 @@ export const PROJECTS = [
     description: "High-performance developer platform for managing full-stack infrastructure and deployments.",
     techStack: ["React", "Node.js", "PostgreSQL", "Docker"],
     githubUrl: "https://github.com/harsh2055/Stackbase",
-    liveUrl: "https://stackbase.qzz.io",
+    liveUrl: "https://stackbase-navy.vercel.app/",
     highlights: [
       "Architected a centralized dashboard for managing cloud resources and deployment pipelines.",
       "Integrated secure authentication and role-based access control for development teams."
@@ -90,7 +90,7 @@ export const PROJECTS = [
     description: "Personalized AI study assistant that converts complex documents into interactive learning modules.",
     techStack: ["React", "Python", "OpenAI API", "Supabase"],
     githubUrl: "https://github.com/harsh2055/StudyAI",
-    liveUrl: "https://study-ai-theta.vercel.app",
+    liveUrl: "https://studyai-cc5l.onrender.com",
     highlights: [
       "Developed a RAG-based engine for high-accuracy document summarization and Q&A.",
       "Built an intuitive interface for students to track progress and generate automated quizzes."
@@ -108,7 +108,7 @@ export const PROJECTS = [
     description: "AI-driven professional proposal generator designed to streamline client intake and contract creation.",
     techStack: ["React", "Node.js", "Gemini API", "PostgreSQL"],
     githubUrl: "https://github.com/harsh2055/ProposalAI",
-    liveUrl: "https://proposal-ai.qzz.io",
+    liveUrl: "https://proposal-ai-eosin.vercel.app/",
     highlights: [
       "Implemented an automated draft generation system based on client requirement prompts.",
       "Designed a secure signature workflow with PDF export capabilities."
