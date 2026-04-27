@@ -107,7 +107,7 @@ export const PROJECTS = [
   name: "CodeSense",
   description: "AI-powered project management and code analysis platform that connects with repositories to detect issues, track changes, and provide intelligent insights.",
   techStack: ["React", "Node.js", "Python", "OpenAI API", "Supabase"],
-  githubUrl: "https://github.com/harsh2055",
+  githubUrl: "https://github.com/harsh2055/AI-Project-Manager.git",
   liveUrl: "https://ai-project-manager-khaki.vercel.app/",
   highlights: [
     "Built a GitHub-integrated system that analyzes commits and detects code issues in real-time.",
