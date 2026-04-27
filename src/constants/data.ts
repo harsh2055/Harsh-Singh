@@ -103,6 +103,32 @@ export const PROJECTS = [
     order: 5
   },
   {
+  id: "codesense",
+  name: "CodeSense",
+  description: "AI-powered project management and code analysis platform that connects with repositories to detect issues, track changes, and provide intelligent insights.",
+  techStack: ["React", "Node.js", "Python", "OpenAI API", "Supabase"],
+  githubUrl: "https://github.com/harsh2055",
+  liveUrl: "https://ai-project-manager-khaki.vercel.app/",
+  highlights: [
+    "Built a GitHub-integrated system that analyzes commits and detects code issues in real-time.",
+    "Implemented AI-based debugging assistant that suggests fixes and improvements for errors."
+  ],
+  status: "completed",
+  challenges: [
+    "Handling secure webhook connections for multiple users",
+    "Ensuring accurate AI-based code analysis",
+    "Managing real-time processing of commits"
+  ],
+  solutions: [
+    "Implemented user-based repo isolation and secure webhook handling",
+    "Enhanced prompt engineering for better AI accuracy",
+    "Optimized backend processing with queue-based architecture"
+  ],
+  learnings: "Gained deep experience in webhook systems, real-time architecture, and improving LLM accuracy for code analysis.",
+  progress: 100,
+  order: 6
+},
+  {
     id: "proposalai",
     name: "ProposalAI",
     description: "AI-driven professional proposal generator designed to streamline client intake and contract creation.",
